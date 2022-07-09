@@ -5,6 +5,7 @@ pipeline{
 		   steps{
 			    sh """
 					docker info
+					ls -l
 					pwd
 					cd microservices
                     cp ../app/* .
