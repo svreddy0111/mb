@@ -1,11 +1,6 @@
 pipeline{
 	agent any
 	stages{
-		stage("SCM"){
-		    steps{
-			  git 'https://github.com/svreddy0111/july06.git'
-			}
-		}
 		stage("ImageBuild"){
 		   steps{
 			    sh """
