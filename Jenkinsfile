@@ -11,6 +11,7 @@ pipeline{
 			    sh """
 					docker info
 					pwd
+					ls -l
 					cd microservices
                     cp ../app/* .
 					ls -l
